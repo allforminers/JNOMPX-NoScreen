@@ -19,9 +19,9 @@ npm install
 
 #### 2) Download
 
-git clone https://github.com/allforminers/JNOMPX-Clear.git
+git clone https://github.com/allforminers/JNOMPX-NoScreen.git jnompx
 
-cd JNOMPX-Clear
+cd jnompx
 
 npm update
 
