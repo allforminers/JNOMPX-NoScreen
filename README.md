@@ -15,15 +15,9 @@ sudo n v12
 sudo apt purge nodejs npm -y
 sudo ln -sf /usr/local/bin/node /usr/bin/node 
 sudo ln -sf /usr/local/bin/npm /usr/bin/npm 
-git clone https://github.com/ROZ-MOFUMOFU-ME/zny-nomp
-cd zny-nomp
+git clone https://github.com/allforminers/JNOMPX-NoScreen.git jnompx
+cd jnompx
 npm install
 ```
-#### 2) Download
 
-git clone https://github.com/allforminers/JNOMPX-NoScreen.git jnompx
-
-cd jnompx
-
-npm update
 
