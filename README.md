@@ -36,8 +36,10 @@ bind 127.0.0.1
 
 git clone https://github.com/allforminers/JNOMPX-NoScreen.git jnompx
 cd jnompx
-npm install
 npm update
+npm install
+
+node init.js
 
 
 ```
