@@ -41,7 +41,11 @@ npm install
 
 node init.js
 
+if error redis use this 
 
+redis-server
+or
+redis-server --daemonize yes
 ```
 
 ```bash
