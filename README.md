@@ -42,6 +42,12 @@ npm update
 
 ```
 
+```bash
+sudo apt-get install build-essential libsodium-dev npm
+sudo npm install n -g
+sudo n v9
+
+```
 
 
 
