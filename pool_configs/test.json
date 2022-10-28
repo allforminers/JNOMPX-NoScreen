@@ -1,12 +1,12 @@
 {
-    "enabled": false,
-    "coin": "litecoin.json",
+    "enabled": true,
+    "coin": "x11.json",
 
-    "address": "n4jSe18kZMCdGcZqaYprShXW6EH1wivUK1",
+    "address": "iV8PJcVFyVYTctiedPHgBzoepLPtaNGhZo",
 
     "rewardRecipients": {
-        "n37vuNFkXfk15uFnGoVyHZ6PYQxppD3QqK": 1.5,
-        "22851477d63a085dbc2398c8430af1c09e7343f6": 0.1
+        "ibUKim2HrkjkU8gqYKktiF2p2b96mPe9Qj": 0.0
+
     },
 
     "paymentProcessing": {
@@ -15,42 +15,42 @@
         "minimumPayment": 70,
         "daemon": {
             "host": "127.0.0.1",
-            "port": 19332,
-            "user": "testuser",
-            "password": "testpass"
+            "port": 9998,
+            "user": "wedffhfgjkk",
+            "password": "wefgfgglllll"
         }
     },
 
     "ports": {
         "3008": {
-            "diff": 8
+            "diff": 512
         },
         "3032": {
-            "diff": 32,
+            "diff": 512,
             "varDiff": {
-                "minDiff": 8,
-                "maxDiff": 512,
+                "minDiff": 512,
+                "maxDiff": 1024,
                 "targetTime": 15,
                 "retargetTime": 90,
                 "variancePercent": 30
             }
         },
         "3256": {
-            "diff": 256
+            "diff": 1024
         }
     },
 
     "daemons": [
         {
             "host": "127.0.0.1",
-            "port": 19332,
-            "user": "testuser",
-            "password": "testpass"
+            "port": 9998,
+            "user": "wedffhfgjkk",
+            "password": "wefgfgglllll"
         }
     ],
 
     "p2p": {
-        "enabled": true,
+        "enabled": false,
         "host": "127.0.0.1",
         "port": 19333,
         "disableTransactions": true

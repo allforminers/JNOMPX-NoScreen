@@ -31,9 +31,9 @@
 
     "website": {
         "enabled": true,
-        "host": "0.0.0.0",
+        "host": "178.62.192.100",
         "port": 80,
-        "stratumHost": "cryppit.com",
+        "stratumHost": "178.62.192.100",
         "stats": {
             "updateInterval": 60,
             "historicalRetention": 43200,
