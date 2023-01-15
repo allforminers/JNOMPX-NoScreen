@@ -13,6 +13,10 @@ sudo apt install npm -y
 sudo npm install n -g
 sudo n v12
 
+sudo add-apt-repository ppa:bitcoin/bitcoin
+sudo apt-get update
+sudo apt-get install libdb4.8-dev libdb4.8++-dev
+
 
 sudo apt purge nodejs npm -y
 
